@@ -35,7 +35,7 @@ class HBNBCommand(cmd.Cmd):
     """Defines the HolbertonBnB command interpreter.
 
     Attributes:
-        prompt (str): The command prompt.
+        prompt (str): The command prompt..
     """
 
     prompt = "(hbnb) "
@@ -50,7 +50,7 @@ class HBNBCommand(cmd.Cmd):
     }
 
     def emptyline(self):
-        """Do nothing upon receiving an empty line."""
+        """Do nothing upon receiving an empty line.."""
         pass
 
     def default(self, arg):
@@ -85,7 +85,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_create(self, arg):
         """Usage: create <class>
-        Create a new class instance and print its id.
+        Create a new class instance and print its id..
         """
         argl = parse(arg)
         if len(argl) == 0:
@@ -98,7 +98,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_show(self, arg):
         """Usage: show <class> <id> or <class>.show(<id>)
-        Display the string representation of a class instance of a given id.
+        Display the string representation of a class instance of a given id..
         """
         argl = parse(arg)
         objdict = storage.all()
