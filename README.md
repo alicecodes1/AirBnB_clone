@@ -1,6 +1,6 @@
 # AIRBNB_CLONE
 
-Project submitted for ALX Software Engineering school.
+Project submitted for ALX Software Engineering school..
 
 ![images](https://github.com/monoprosito/AirBnB_clone/blob/feature/console/hBnB.png?raw=true
 )
@@ -119,3 +119,4 @@ help or help <command> Ex:
 # Authors
 * Seriki Ifeoluwa <ifeoluwaalice75@gmail.com>
 * Samuel Chigozie <nzekwesammy@gmail.com>
+...
